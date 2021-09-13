@@ -56,5 +56,36 @@ let diferença = (suaidade - idadeamigo)
 console.log (diferença)*/
 
 
-let numpar = Number(prompt("Digite um número par"))
 
+//let numpar = Number(prompt("Digite um número par"))
+//let restodivisão = (numpar%2)
+//console.log (restodivisão)  
+//sempre que o número é par, o resultado é 0
+//sempre que é nserido um número impar, o resultado é 1
+
+/*let idade = Number(prompt("Qual a sua idade?"))
+console.log(idade)
+let meses = idade * 12
+console.log("Você tem", meses, "meses de idade")
+
+let idadeDias = idade * 365
+console.log("Você tem", idadeDias, "dias de idade")
+
+let idadeHoras = idade * 8760
+console.log("Você tem", idadeHoras, "horas de idade")*/
+
+
+/*let numero1 = Number(prompt ("Digite um número"))
+console.log (numero1)
+let numero2 = Number(prompt ("Digite novamente um número"))
+console.log (numero2)
+let maior1 = numero1 > numero2
+console.log ("O primeiro numero é maior que segundo?", maior1)
+let maior2 = numero1 === numero2
+console.log ("O primeiro numero é igual ao segundo?", maior2)*/
+
+
+/*let divi1 = numero1 % numero2 === 0
+console.log("O primeiro número é divisível pelo segundo?", divi1)
+let divi2 = numero2 % numero1 === 0
+console.log("O segundo número é divisível pelo primeiro?", divi2)*/
