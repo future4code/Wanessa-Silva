@@ -82,30 +82,22 @@ function mensagem(texto) {
 
 // =========================== Questão 3 ================================
 /*
-function opSoma (num1,num2){
-    const soma = num1 + num2
-    return soma
+function opSoma(num1, num2) {
+  return num1 + num2;
 }
-
-function opDivisao (num1,num2){
-    const divisao = num1 + num2
-    return divisão 
+function opDivisao(num1, num2) {
+  return num1 / num2;
 }
-
-function opSubtracao (num1, num2){
-    const subtracao = num1 + num2
-    return subtracao 
+function opSubtracao(num1, num2) {
+  return num1 - num2;
 }
-
-function opMulti (num1,num2){
-    const multi = num1 + num2
-    return multi
+function opMulti(num1, num2) {
+  return num1 * num2;
 }
 const valor1 = Number(prompt('Digite um número'))
 const valor2 = Number(prompt('Digite outro número'))
-
-console.log ('O resultado da soma é' opSoma(valor1,valor2))
-console.log ('O resultado da divisão é' opDivisao(valor1,valor2))
-console.log ('O resultado da subtração é' opSubtracao(valor1,valor2))
-console.log ('O resultado da multiplicação é' opMulti(valor1,valor2))
+console.log('O resultado da soma é', opSoma(valor1, valor2))
+console.log('O resultado da divisão é', opDivisao(valor1, valor2))
+console.log('O resultado da subtração é', opSubtracao(valor1, valor2))
+console.log('O resultado da multiplicação é', opMulti(valor1, valor2))
 */
