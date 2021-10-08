@@ -1,41 +1,57 @@
 // EXERCÍCIO 01
 function inverteArray(array) {
-
-  const meuArray = [1, 2, 5, 7, 9, 4];
-  console.log(meuArray);
-  
-  const meuArrayInvertido = meuArray.map(function (item, indice, array){
-    return array[array.length - indice - 1];
-  });
-  console.log(meuArray);
-  
-  console.log(meuArrayInvertido)
+  let tamanho = array.length;
+  let esquerda = null;
+  let direita = null;
+  for (esquerda = 0, direita = tamanho - 1; esquerda < direita; esquerda += 1, direita -= 1) {
+     let temporario = array[esquerda];
+     array[esquerda] = array[direita];
+     array[direita] = temporario;
+  }
+  return array
 }
 
 // EXERCÍCIO 02
 function retornaNumerosParesElevadosADois(array) {
-const numeros = [2,4,6,8,15]
-cosnt elevados = (numeros.Math.pow())
-console.log(elevados)
+  let numerosPares = array.filter((numero) => {
+    if(numero % 2 === 0){
+      return true
+    }
+  })
+
+  let numerosParesElevadosADois = numerosPares.map((numero) => {
+    return numero**2
+  })
+
+  return numerosParesElevadosADois
 }
-retornaNumerosParesElevadosADois()
 
 
 // EXERCÍCIO 03
 function retornaNumerosPares(array) {
-const novoArray = []
-const arrayNumeros [1,2,3,4,5,6]
-for ()
+  let numerosPares = array.filter((numero) => {
+    if(numero % 2 === 0){
+      return true
+    }
+  })
+  return numerosPares
 }
 
 // EXERCÍCIO 04
 function retornaMaiorNumero(array) {
-
+  let maiorNumero = 0
+  
+  for(let valor of array ) {
+    if(valor > maiorNumero) {
+      maiorNumero = valor
+    }
+  }
+  return maiorNumero
 }
 
 // EXERCÍCIO 05
 function retornaQuantidadeElementos(array) {
-  
+  return array.length  
 }
 
 // EXERCÍCIO 06
