@@ -1,0 +1,29 @@
+
+=============================== Exercício de fixação do conhecimento ===================================
+
+
+Faça um resumo, abordando os seguintes itens :
+
+1. Quais são os 7 passos fundamentais para a 
+resolução de problemas e como eles podem nos 
+ajudar a solucionar nossos desafios de programação?
+
+Os sete passos são:
+
+Ter atenção no enunciado.
+Retirar informações relevantes do enunciado.
+Pensar nas entradas e saídas que o código vai precisar ter.
+Fazer um esquemas visual para ter uma melhor compreensão a partir da 
+visualização.
+Criar um código bruto e robusto, na maioria das vezes enquanto não se 
+adquire conhecimento e prática o suficiente.
+Após a criação do código é preciso testar ele.
+E estando tudo funcionando como o esperado, caso seja nescessário se refaz
+o código com alguns ajustes para que ele possa ficar mais limpo, flúido, e 
+de fácil compreensão.
+Quando olhamos um problema como um todo, ele tende a ficar grande, dividir 
+em pedaços e resolver por partes torna o processo um pouco mais fácil, assim 
+acontece com a programação e seus desafios, os sete passos para a resolução de 
+problemas de certa forma simplifica a questão, pois iremos ver e resolver as
+demandas por partes, e no final teremos o todo funcionando e conversando da 
+melhor forma possível com os demais.
