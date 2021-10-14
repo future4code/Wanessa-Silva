@@ -1,5 +1,5 @@
 
-### Exercicio de fixacao JS
+### Exercicio de fixacao JS 1
 
 Enunciado
 Uma revendedora de carros usados paga a seus vendedores um salário fixo de R$2000,00 por mês. Os vendedores recebem uma comissão para cada carro vendido, no valor de R$100 + 5% do valor do carro.
