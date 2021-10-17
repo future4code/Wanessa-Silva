@@ -1,20 +1,46 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-button {
-    cursor: pointer;
-}
-
-#header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .cor-titulo {
-    color: rgb(223, 223, 10);
+    color: white;
+}
+
+.tamanho-imagem {
+    height: auto;
+    width: auto;
+    max-width: 40px;
+    max-height: 40px;
+    width: 50%;
+}
+
+body {
+    background-image: url(../img/queijo-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    background: rgb(182, 177, 177);
+    margin-top: 39%;
+}
+
+.redes {
+    width: 10rem;
+}
+
+header {
+    padding: 15px 0;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 2%);
+    transition: top .5s ease;
+    animation: navbar-fixed-animated .5s;
+}
+
+.botao {
+    height: 20px;
+    width: 50px;
+    margin: 5px 5px;
+    position: relative;
+    top: 50%;
+    left: 38%;
 }

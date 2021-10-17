@@ -1,3 +1,22 @@
+body {
+    background: #ffffe6;
+}
+
 .cor-titulo {
-    color: rgb(223, 223, 10);
+    color: black;
+    text-align: center;
+}
+
+.tamanho-imagem {
+    width: 200px;
+    height: auto;
+}
+
+.botao {
+    height: 20px;
+    width: 50px;
+    margin: 5px 5px;
+    position: relative;
+    top: 50%;
+    left: 38%;
 }
