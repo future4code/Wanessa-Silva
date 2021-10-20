@@ -115,6 +115,16 @@ div:last-child {
 
 table {
     width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+table img {
+    width: 4rem;
+    height: 5rem;
+    background-color: #ffff;
 }
 
 td button {
@@ -144,13 +154,6 @@ td button {
     background-color: #635a3d
 }
 
-table {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
 .espaco {
-    padding: 4rem;
+    padding: 0 2rem;
 }
