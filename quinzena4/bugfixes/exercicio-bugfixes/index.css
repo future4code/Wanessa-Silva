@@ -143,3 +143,14 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.espaco {
+    padding: 4rem;
+}
