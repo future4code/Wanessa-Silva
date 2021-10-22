@@ -1,9 +1,64 @@
 * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
 }
 
 .cabecalho {
+    height: 4rem;
     display: flex;
-    padding: 100px;
+    justify-content: space-between;
     background-color: mediumvioletred;
+}
+
+.cabecalho img {
+    width: 20px;
+    height: 20px;
+}
+
+.cabecalho div {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+#login {
+    margin-right: 3rem;
+}
+
+.cabecalho h1 {
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    width: 15rem;
+    background: #f2d0e0;
+    flex-direction: column;
+}
+
+.imgnav {
+    width: 20px;
+    height: 20px;
+}
+
+main {
+    display: grid;
+    flex-grow: 1;
+}
+
+.bolochocolate {
+    width: 35px;
+    height: 35px;
+}
+
+footer {
+    background: mediumvioletred;
+    height: 30px;
+    text-align: center;
+    padding-left: 50px;
 }
