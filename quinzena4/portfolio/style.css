@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: aliceblue;
+    padding: 20px;
+}
+
+.sobre {
+    padding: 240px;
+    background: rgb(255, 231, 235);
+}
+
+footer {
+    background: aliceblue;
+    padding: 10px;
+}
