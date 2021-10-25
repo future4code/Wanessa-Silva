@@ -192,7 +192,11 @@ article h4 {
     margin: 10px 0;
 }
 
-.social-media a img {
+.contato a {
+    color: #fff;
+}
+
+.social-media img {
     margin: 0 5px;
     width: 42px;
     height: 42px;
