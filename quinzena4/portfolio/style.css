@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #9eacc9;
+    font-family: 'Signika', sans-serif;
+}
+
+a {
+    color: #2c3344;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/** HEADER **/
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho img {
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+
+.cabecalho ul {
+    margin: -10px 0 0;
+    display: flex;
+    list-style: none;
+}
+
+.cabecalho li {
+    margin: 0 15px;
+    font-size: 22px;
+}
+
+#atalho {
+    display: block;
+    padding: 30px;
+}
+
+
+/** SOBRE **/
+
+
+/** SECTION 1 **/
+
+.sobre1 {
+    position: relative;
+    padding: 30px 0;
+}
+
+.sobre1 h2 span {
+    display: block;
+}
+
+.sobre1 h2 {
+    font-size: 40px;
+    line-height: 130%;
+    max-width: 720px;
+    margin: 0 0 30px;
+    color: #2c3344;
+}
+
+section {
+    display: block;
+}
+
+section>div {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.foto-perfil {
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+    right: 50px;
+    z-index: 0;
+    width: 350px;
+    height: 490px;
+    margin: 20px;
+}
+
+.foto-perfil img {
+    width: 74%;
+    border-radius: 150%;
+}
+
+
+/** SECTION 2 **/
+
+.sobre {
+    position: relative;
+    padding: 50px 0;
+    background: #2c3344;
+    color: rgb(244, 244, 237);
+}
+
+.sobre p {
+    font-size: 22px;
+    line-height: 150%;
+    max-width: 580px;
+    margin: 30px auto;
+    font-weight: normal;
+}
+
+.sobre-mim {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+/** EXPERIÊNCIAS **/
+
+.hab {
+    position: relative;
+    padding: 50px 0px;
+    background: #887d8a;
+    color: rgb(44, 51, 68);
+}
+
+.hab h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto 60px;
+}
+
+.hab p {
+    font-size: 18px;
+    line-height: 150%;
+    margin: 0;
+}
+
+.habilidades {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.infor {
+    color: rgb(44, 51, 68);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#projetos {
+    margin: 60px auto 40px;
+}
+
+#formacao {
+    margin: 60px auto 40px;
+}
+
+article h4 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+}
+
+
+/** FOOTER/CONTATO **/
+
+#contato-email {
+    max-width: 60%;
+    text-align: left;
+}
+
+.contato {
+    padding: 30px;
+    color: rgb(244, 244, 237);
+    background: rgb(44, 51, 68);
+    text-align: center;
+    line-height: 120%;
+}
+
+.contato h5 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.contato p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contato a {
+    color: #fff;
+}
+
+.social-media img {
+    margin: 0 5px;
+    width: 42px;
+    height: 42px;
+}
+
+
+/** CONTATO FORMULÁRIO **/
+
+.contato-form {
+    border-radius: 8px;
+    max-width: 680px;
+    background: #cfdbe2;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.contato-form form {
+    margin: 30px auto;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.contato-form label {
+    display: block;
+}
+
+.conta-form input {
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type="reset"] {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
