@@ -1,0 +1,17 @@
+body {
+    background: #ffffe6;
+}
+
+.cor-titulo {
+    color: black;
+    text-align: center;
+}
+
+.botao {
+    height: 20px;
+    width: 50px;
+    margin: 5px 5px;
+    position: relative;
+    top: 50%;
+    left: 38%;
+}
