@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #B22222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+footer {
+    background-color: #B22222;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.botao-pesquisa {
+    border-radius: 0.4rem;
+}
+
+footer h3 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 50px;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: space-between;
+}
+
+main p {
+    padding: 20px 0px;
+}
+
+.img {
+    width: 287px;
+    height: 260px;
+}
+
+.borda {
+    border: 2px solid;
+    border-color: black;
+}
+
+@media screen and (max-device-width: 520px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
