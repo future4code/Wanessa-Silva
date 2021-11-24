@@ -9,7 +9,7 @@ const MainContainer = styled.div`
   display:flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 12rem;
 `
 export default class App extends React.Component {
   state = {
