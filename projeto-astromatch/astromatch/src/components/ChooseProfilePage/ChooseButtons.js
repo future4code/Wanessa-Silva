@@ -1,3 +1,4 @@
+import axios from 'axios'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -8,10 +9,24 @@ const ButtonsContainer = styled.div`
 
 
 function ChooseButtons() {
+    const onClickNo = () => {
+        const body ={
+            choice: false,
+        }
+        axios.post('https://us-central1-missao-newton.cloudfunctions.net/astroMatch/wanessa/choose-person', body
+
+        )
+    }
+
+    const onClickYes = () => {
+
+    }
+
+
     return (
         <ButtonsContainer>
-            <button>Não</button>
-            <button>Sim</button>
+            <button OnClick={onClickNo}> Não</button>
+            <button OnClick={onClickNo}>Sim</button>
         </ButtonsContainer>
     )
 }
