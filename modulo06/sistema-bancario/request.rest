@@ -1,0 +1,32 @@
+
+GET http://localhost:3003/allusers
+
+GET http://localhost:3003/users/111.222.333-44
+
+POST http://localhost:3003/users
+Content-Type: application/json
+
+{
+    "name": "Maria",
+    "CPF": "111.222.333-44",
+    "birthday": "24/06/1993"
+}
+
+PUT http://localhost:3003/users/2000
+Content-Type: application/json
+
+{
+    "name": "Maria",
+    "CPF": "111.222.333-44",
+    "balance": "5000"
+}
+
+
+PUT http://localhost:3003/users/payment/111.222.333-44/Maria
+Content-Type: application/json
+
+{
+    "value": "500",
+    "date":"15/04/2022",
+    "description": "energia"
+}
